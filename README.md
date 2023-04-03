@@ -8,8 +8,8 @@ Here's how the tool will work:
 4. The user can then specify if they want to see the most frequently used words, least frequently used words, or all the words and their frequency count.
 5. The tool will display the requested information in the command-line interface.
 
-Here's how you can use Generators, Decorators, CMD, Multiprocessing, and Multithreading in this project:
+Here's how you can use Generators, CMD, and Multithreading in this project:
 
 1. Generators: Use a generator function to read the text file and generate the list of words present in the text. This will improve performance and memory usage by reading the file in chunks instead of loading the entire file into memory.
-2. CMD: Use the argparse module to create a command-line interface for the tool.
+2. CMD: Use the CMD module to create a command-line interface for the tool.
 3. Multithreading: Use multithreading to split the word frequency analysis function into multiple threads, which will analyze different portions of the text file simultaneously, improving performance.

@@ -1,4 +1,4 @@
-The goal of this project is to build a tool that can analyze a given text document and provide insights into the frequency of words used in it. The tool will utilize Generators, Decorators, CMD and Multithreading to improve performance and make the tool efficient.
+The goal of this project is to build a tool that can analyze a given text document and provide insights into the frequency of words used in it. The tool will utilize Generators, CMD and Multithreading to improve performance and make the tool efficient.
 
 Here's how the tool will work:
 
@@ -11,6 +11,5 @@ Here's how the tool will work:
 Here's how you can use Generators, Decorators, CMD, Multiprocessing, and Multithreading in this project:
 
 1. Generators: Use a generator function to read the text file and generate the list of words present in the text. This will improve performance and memory usage by reading the file in chunks instead of loading the entire file into memory.
-2. Decorators: Use a decorator to time the execution of the word frequency analysis function and display the time taken to analyze the text file.
-3. CMD: Use the argparse module to create a command-line interface for the tool.
-4. Multithreading: Use multithreading to split the word frequency analysis function into multiple threads, which will analyze different portions of the text file simultaneously, improving performance.
+2. CMD: Use the argparse module to create a command-line interface for the tool.
+3. Multithreading: Use multithreading to split the word frequency analysis function into multiple threads, which will analyze different portions of the text file simultaneously, improving performance.

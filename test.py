@@ -9,6 +9,7 @@ def without_yield():
         for line in file:
             return line
 
+
 class TestWordFrequencyAnalysisTool(unittest.TestCase):
 
     def test_response_time(self):
@@ -30,7 +31,6 @@ class TestWordFrequencyAnalysisTool(unittest.TestCase):
 
         
         self.assertTrue(t2_time_end > t1_time_end)
-
 
 if __name__ == '__main__':
     unittest.main()

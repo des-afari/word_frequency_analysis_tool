@@ -1,9 +1,12 @@
 import concurrent.futures
 import time
+from collections import Counter 
 
 
 def word_count(line):
-    return line
+    new_list = line.split(' ')
+    result = Counter(new_list)
+    return result
     
 
 # generator function

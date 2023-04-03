@@ -1,3 +1,5 @@
+<h1>Word Frequency Analysis Tool</h1>
+
 The goal of this project is to build a tool that can analyze a given text document and provide insights into the frequency of words used in it. The tool will utilize Generators, CMD and Multithreading to improve performance and make the tool efficient.
 
 Here's how the tool will work:

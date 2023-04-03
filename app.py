@@ -26,3 +26,4 @@ if __name__ == '__main__':
     print("To run file, you need to type the following command into you terminal")
     print("python console.py")
     print("and then follow the instructions")
+    
